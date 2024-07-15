@@ -1,74 +1,57 @@
 <!DOCTYPE html>
-<html>
 
 <head>
-    <title>Learning HTML</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Mario Club</title>
 </head>
 
 <body>
-    <p>Hello, Ninjas</p>
-    <p>My name is <strong>John Doe B</strong></p> <!-- makes text bold -->
-    <p>My name is <em>John Doe</em></p> <!-- Makes text italic -->
-    <p>My name is <u>John Doe</u></p> <!-- Makes text underlined -->
-    <p>My name is <mark>John Doe</mark></p> <!-- Makes text highlighted -->
-    <p>My name is <small>John Doe</small></p> <!-- Makes text smaller -->
-    <p>My name is <ins>John Doe</ins></p> <!-- Makes text underlined and strikethrough -->
-    <p>My name is <del>John Doe</del></p> <!-- Makes text strikethrough -->
-    <p>My name is <sub>John Doe</sub></p> <!-- Makes text smaller and underlined -->
-    <p>My name is <sup>John Doe</sup></p> <!-- Makes text smaller and underlined -->
-
-    <h1>heading 1</h1>
-    <h2>heading 2</h2>
-    <h3>heading 3</h3>
-    <h4>heading 4</h4>
-    <h5>heading 5</h5>
-    <h6>heading 6</h6>
-
-    <p>Unordered list (ul)</p>
+    <header>
+        <h1>Mario Club</h1>
+    </header>
+    <section class="banner">
+        <img src="images/banner.png" alt="club banner">
+        <div class="Welcome">
+            <h2>Welcome to <span>Mario Club</span></h2>
+        </div>
+    </section>
+    <nav class="main-nav">
+        <ul>
+            <li><a href="#/join.html" class="join">Join the club</a></li>
+            <li><a href="#/news.html">Latest news</a></li>
+            <li><a href="#/games.html">New games</a></li>
+            <li><a href="#/contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <article>
+            <h2>Join the club</h2>
+            <p>Join the club and get access to all the latest news and games. You can
+                also get access to the members only area where you can chat with other
+                members and play exclusive games.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi nihil odio alias autem maiores nobis,
+                possimus quod. Deleniti voluptatem reiciendis placeat quisquam labore enim laborum beatae repellat!
+                Molestiae, voluptas perferendis.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi odio excepturi vero temporibus assumenda
+                ducimus eveniet? Excepturi numquam quam quos odit, facilis similique tempore ea sequi eius, quia
+                incidunt alias.
+            </p>
+        </article>
+    </main>
     <ul>
-        <li>Item 1</li>
-        <li>Item 2</li>
-        <li>Item 3</li>
-    </ul> <!-- unordered list -->
-    <p>Ordered list (ol)</p>
-    <ol>
-        <li>Item 1</li>
-        <li>Item 2</li>
-        <li>Item 3</li>
-    </ol>
-    <!-- ordered list -->
-
-    <div>I am a div</div>
-    <!-- divide content into sections -->
-
-    <span>I am a span</span>
-    <!-- A way to add CSS or Js hook into a part of the HTML -->
-    <!-- A bit like the p tag but they do not behave the same -->
-
-    <p>Line break tag (br)</p>
-    <br>
-    <!-- line break, adds a line break in the HTML file -->
-    <p>horizontal rule (hr)</p>
-    <hr>
-    <!-- horizontal rule, adds a horizontal line in the HTML file -->
-    <p>Image tag (img)</p>
-    <img src="images" alt="picture of a skate board">
-    <!-- image tag for displaying an image to the we browser-->
-    <!-- It must include an attribute to point/add the path to the image -->
-
-    <p>Get to know us <a href="/about.html">About Us</a>
-
-    <blockquote cite="">
-        <p>Blockquote is what i am</p>
-    </blockquote>
-    <!-- blockquote tag, adds a quote to the HTML file from another website/source -->
-
-    <style></style>
-    <!-- style tag, adds CSS to the HTML file -->
-    <p style="color: red;">Style me</p>
-
-    <!-- I am a comment, I comment out code that you do not want to see on the
-     browser or some important info left for future self or fellow dev while previewing the code -->
+        <li><img src="images/thumb-1.png" alt=""></li>
+        <li><img src="images/thumb-2.png" alt=""></li>
+    </ul>
+    <section class="join">
+        <h2>join Today!</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, quaerat.
+        <form>
+            <input type="email" name="email" placeholder="Enter your email and hit enter" required>
+        </form>
+    </section>
+    <footer>
+        <p class="copy-right">Copyright Mario Club &copy; 2024</p>
+    </footer>
 </body>
 
 </html>
