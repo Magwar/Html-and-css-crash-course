@@ -115,7 +115,7 @@ article p {
 .images li img {
     width: 100%;
 }
-.join{
+section.join{
     background: #f4f4f4;
     text-align: center;
     padding: 60px 20px;
