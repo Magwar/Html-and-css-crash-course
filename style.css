@@ -228,17 +228,19 @@ p::after {
 }
 
 @media screen and (max-width: 560px) {
-    nav li{
+    nav li {
         font-size: 20px;
         position: relative;
         display: block;
         width: 100%;
         margin: 12px 0;
     }
-    header{
+
+    header {
         position: relative;
     }
-    nav{
+
+    nav {
         top: 0;
     }
 }
